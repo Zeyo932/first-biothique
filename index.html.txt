@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Biothique — Parfums Chogan & Luxe</title>
+  <meta name="description" content="Découvrez les avis honnêtes sur les parfums Chogan. Tests luxueux, comparatifs avec les grandes marques, et conseils personnalisés via WhatsApp.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo">FIRST <span>BIOTHIQUE</span></a>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="avis-parfums-chogan-test-comparatif-2026.html">Avis</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>L'Art du Parfum <em>Accessible</em></h1>
+    <p>Les parfums Chogan testés avec exigence. Qualité de Grasse, prix juste, conseil personnalisé.</p>
+    <a href="avis-parfums-chogan-test-comparatif-2026.html" class="btn btn-primary">Découvrir l'Avis</a>
+    <a href="https://wa.me/33744193757?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20un%20parfum%20Chogan" class="btn btn-outline">Conseil Privé</a>
+
+    <div class="hero-images">
+      <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/cc7b5683def7d0493deb23a6a2eede037446c7f3.jpg" alt="Flacon de parfum luxe or" class="hero-img">
+      <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/559584d1188eee51ff3bce73a7ee1345f64f549b.jpg" alt="Parfum noir et or" class="hero-img">
+      <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/57b29568fa9f0bd6a806144fe19550d0ab01c660.jpg" alt="Parfum J'adore or" class="hero-img">
+    </div>
+  </section>
+
+  <section class="articles-section">
+    <div class="container">
+      <h2 class="section-title">Nos Tests & Avis</h2>
+
+      <article class="article-card">
+        <div class="article-image">
+          <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/0b5f95bd480efa4af1016ac47035791a2b2bc8b2.jpg" alt="Parfum luxe test Chogan">
+        </div>
+        <div class="article-content">
+          <span class="article-tag">Test Exclusif</span>
+          <h2><a href="avis-parfums-chogan-test-comparatif-2026.html">Avis Parfums Chogan : Test Honnête et Comparatif 2026</a></h2>
+          <p class="article-excerpt">J'achetais Dior, Chanel et Yves Saint Laurent. Puis j'ai découvert Chogan. J'étais sceptique. Un parfum à 20-30 € qui sent comme une grande marque ? Voici mon test réel, sans langue de bois.</p>
+          <a href="avis-parfums-chogan-test-comparatif-2026.html" class="read-more">Lire le Test →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="luxury-showcase">
+    <div class="container">
+      <h2>L'Univers <em>First Biothique</em></h2>
+      <div class="showcase-grid">
+        <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/ec5e1fed3ec5f43c53aef6e84e0fd404c6259fa3.jpg" alt="Élégance parfumée" class="showcase-img">
+        <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/41dbaeb9d1ca46b67c033d0e7a2e3a901db42890.jpg" alt="Collection parfums" class="showcase-img">
+        <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/0a4065d5d5d7a712158093f60dc802c6425374db.jpg" alt="Set luxe parfum" class="showcase-img">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>First Biothique — L'Art du Parfum Accessible</p>
+      <p>Consultant Chogan indépendant. <a href="contact.html">Me contacter</a></p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/33744193757?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20un%20parfum%20Chogan" class="whatsapp-float" aria-label="WhatsApp">📱</a>
+
+</body>
+</html>

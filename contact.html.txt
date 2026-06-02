@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — First Biothique | Parfums Chogan</title>
+  <meta name="description" content="Contactez First Biothique pour un conseil personnalisé sur les parfums Chogan. Commande via WhatsApp ou boutique en ligne.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo">FIRST <span>BIOTHIQUE</span></a>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="avis-parfums-chogan-test-comparatif-2026.html">Avis</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-card">
+        <h2>Contact Privé</h2>
+        <p>Besoin d'un conseil sur les parfums Chogan ? Je réponds rapidement sur WhatsApp pour t'aider à choisir.</p>
+
+        <div style="text-align:center; margin: 32px 0;">
+          <img src="https://pplx-res.cloudinary.com/image/upload/pplx_search_images/094a3c8ce27e2ea580794000fc998b26c7daaa24.jpg" alt="Collection parfums vanity" style="max-width:300px; border-radius:8px; box-shadow: 0 8px 30px rgba(0,0,0,0.15);">
+        </div>
+
+        <div class="contact-options">
+          <a href="https://wa.me/33744193757?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20un%20parfum%20Chogan" class="btn btn-whatsapp">📱 WhatsApp : 07 44 19 37 57</a>
+          <a href="https://www.chogangroupspa.com/referral/SYL562D3A/FR" class="btn btn-primary">🛒 Voir la boutique Chogan</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>First Biothique — L'Art du Parfum Accessible</p>
+      <p>Consultant Chogan indépendant.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/33744193757?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20un%20parfum%20Chogan" class="whatsapp-float" aria-label="WhatsApp">📱</a>
+
+</body>
+</html>

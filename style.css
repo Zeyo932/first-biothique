@@ -1,0 +1,313 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background: #0d0d0d;
+  color: #f5f5f5;
+  line-height: 1.7;
+}
+
+a {
+  color: #cea266;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #f4e4c5;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #0f0f1a 100%);
+  border-bottom: 1px solid #2a2a3e;
+  padding: 25px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.6em;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: #cea266;
+  text-transform: uppercase;
+}
+
+.logo span {
+  color: #f4e4c5;
+}
+
+nav a {
+  margin-left: 25px;
+  font-size: 0.9em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+
+nav a:hover {
+  color: #cea266;
+}
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1615634260167-c8cdede054de?q=80&w=1600&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 2.8em;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #f4e4c5;
+}
+
+.hero p {
+  font-size: 1.1em;
+  max-width: 600px;
+  color: #cccccc;
+  font-style: italic;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 20px;
+}
+
+section h2 {
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 4px;
+  margin-bottom: 40px;
+  color: #cea266;
+  text-transform: uppercase;
+}
+
+/* PARFUMS GRID */
+.parfums {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.parfum-card {
+  background: linear-gradient(145deg, #1a1a2e 0%, #0f0f1a 100%);
+  border: 1px solid #2a2a3e;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.parfum-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(206, 162, 102, 0.2);
+}
+
+.parfum-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.parfum-card h3 {
+  font-size: 1.3em;
+  padding: 20px;
+  letter-spacing: 2px;
+  color: #f4e4c5;
+}
+
+.parfum-card .price {
+  padding: 0 20px 20px;
+  font-size: 1.5em;
+  color: #cea266;
+  font-weight: bold;
+}
+
+.parfum-card .cta-btn {
+  display: block;
+  text-align: center;
+  background: linear-gradient(135deg, #cea266 0%, #a87d3d 100%);
+  color: #0d0d0d;
+  padding: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: background 0.3s ease;
+}
+
+.parfum-card .cta-btn:hover {
+  background: linear-gradient(135deg, #f4e4c5 0%, #cea266 100%);
+}
+/* REVIEWS */
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+.review-card {
+  background: #14141f;
+  border-left: 3px solid #cea266;
+  padding: 25px;
+  border-radius: 0 8px 8px 0;
+}
+
+.review-card .stars {
+  color: #cea266;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.review-card h4 {
+  color: #f4e4c5;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+
+.review-card .reviewer {
+  font-size: 0.85em;
+  color: #888;
+  font-style: italic;
+}
+
+/* CONTACT FORM */
+.contact-form {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #cea266;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  background: #14141f;
+  border: 1px solid #2a2a3e;
+  color: #f5f5f5;
+  font-family: inherit;
+  font-size: 1em;
+  border-radius: 4px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #cea266;
+}
+
+.contact-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(135deg, #cea266 0%, #a87d3d 100%);
+  color: #0d0d0d;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(135deg, #f4e4c5 0%, #cea266 100%);
+}
+
+/* WHATSAPP CTA */
+.whatsapp-cta {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  padding: 16px 40px;
+  background: #25D366;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebc57;
+  transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+  background: #0a0a12;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 1px solid #2a2a3e;
+  margin-top: 60px;
+}
+
+footer a {
+  margin: 0 15px;
+  font-size: 0.9em;
+  color: #aaaaaa;
+}
+
+footer .copyright {
+  margin-top: 20px;
+  font-size: 0.8em;
+  color: #555;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .header-inner {
+    flex-direction: column;
+    gap: 15px;
+  }
+  nav a {
+    margin: 5px 10px;
+  }
+  .hero h1 {
+    font-size: 1.8em;
+  }
+}

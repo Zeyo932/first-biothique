@@ -311,3 +311,224 @@ footer .copyright {
     font-size: 1.8em;
   }
 }
+
+/* CATEGORIES SECTION */
+.categories-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #1a1a2e 0%, #0f0f1a 100%);
+}
+.category-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.category-header p {
+  color: #aaaaaa;
+  font-size: 1.1em;
+  max-width: 700px;
+  margin: 15px auto 0;
+}
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.category-card {
+  background: linear-gradient(145deg, #1a1a2e 0%, #0f0f1a 100%);
+  border: 1px solid #2a2a3e;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(206, 162, 102, 0.25);
+  border-color: #cea266;
+}
+.category-card .category-image {
+  height: 220px;
+  overflow: hidden;
+}
+.category-card .category-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.category-card:hover .category-image img {
+  transform: scale(1.1);
+}
+.category-card .category-content {
+  padding: 28px;
+}
+.category-card .category-tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #cea266 0%, #a87d3d 100%);
+  color: #0d0d0d;
+  padding: 6px 16px;
+  border-radius: 30px;
+  font-size: 0.85em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.category-card h3 {
+  font-size: 1.6em;
+  letter-spacing: 3px;
+  color: #f4e4c5;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.category-card p {
+  color: #aaaaaa;
+  font-size: 1em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+.category-card .read-more {
+  display: inline-block;
+  color: #cea266;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  border-bottom: 2px solid #cea266;
+  padding-bottom: 3px;
+  transition: all 0.3s ease;
+}
+.category-card .read-more:hover {
+  color: #f4e4c5;
+  border-bottom-color: #f4e4c5;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  padding: 16px 40px;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+.btn-primary {
+  background: linear-gradient(135deg, #cea266 0%, #a87d3d 100%);
+  color: #0d0d0d;
+}
+.btn-primary:hover {
+  background: linear-gradient(135deg, #f4e4c5 0%, #cea266 100%);
+}
+.btn-outline {
+  background: transparent;
+  color: #cea266;
+  border: 2px solid #cea266;
+}
+.btn-outline:hover {
+  background: #cea266;
+  color: #0d0d0d;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp-float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #25D366;
+  color: #fff;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+.whatsapp-float:hover {
+  transform: scale(1.15);
+}
+
+/* SECTIONS GENERAL */
+section {
+  padding: 60px 20px;
+}
+section h2 {
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 4px;
+  margin-bottom: 40px;
+  color: #cea266;
+  text-transform: uppercase;
+}
+
+/* HERO IMAGES */
+.hero-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.hero-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #cea266;
+  transition: transform 0.4s ease;
+}
+.hero-img:hover {
+  transform: scale(1.1) rotate(2deg);
+}
+
+/* LUXURY SHOWCASE */
+.luxury-showcase {
+  padding: 80px 20px;
+  background: #0a0a12;
+}
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+.showcase-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #2a2a3e;
+  transition: transform 0.4s ease;
+}
+.showcase-img:hover {
+  transform: scale(1.03);
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .header-inner {
+    flex-direction: column;
+    gap: 15px;
+  }
+  nav a {
+    margin: 5px 10px;
+  }
+  .hero h1 {
+    font-size: 1.8em;
+  }
+  .categories-grid {
+    grid-template-columns: 1fr;
+  }
+  .whatsapp-float {
+    bottom: 20px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    font-size: 26px;
+  }
+}
